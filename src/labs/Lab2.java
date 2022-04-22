@@ -18,6 +18,7 @@ class Student {
 	private String userId;
 	private String ssn;
 	private String email;
+	public String courses = "";
 	
 	public Student(String name, String ssn) {
 		iD++;
@@ -38,4 +39,22 @@ class Student {
 		userId = iD + "" + randNum + ssn.substring(5);
 		System.out.println("your userid is " + userId);
 	}
+	
+	public void enroll(String course) {
+		this.courses = this.courses
+	}
+	public void payTuition() {
+		
+	}
+	public void checkBalance() {
+		
+	}
+	public showCourses() {
+		
+	}
+	public String toString() {
+		
+	}
+	
+	
 }
